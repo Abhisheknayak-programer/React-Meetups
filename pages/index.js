@@ -41,7 +41,7 @@ export async function getStaticProps() {
     props: {
       meetups: tranformedMeetups,
     },
-    revalidate: 10,
+    revalidate: 1,
   };
 }
 
